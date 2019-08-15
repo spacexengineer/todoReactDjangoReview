@@ -4,7 +4,8 @@ from .models import Todo
 
 class TodoSerializer(serializers.ModelSerializer):
     """
-    we specified the model to work with and the fields we want to be converted to JSON
+    we specified the model to work with and the fields
+    we want to be converted to JSON
     """
     class Meta:
         model = Todo
